@@ -4,7 +4,8 @@ import { CitiesContext } from "../hooks/CitiesContexts";
 
 // const CitiesContext = createContext();
 
-const BASE_URL = "http://localhost:3001/"
+// const BASE_URL = "http://localhost:3001/"
+const BASE_URL = "https://worlwise-ivfx.onrender.com/"
 
 function reducer(state, action) {
     switch (action.type) {
